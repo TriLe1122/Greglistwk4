@@ -32,13 +32,17 @@
           <div>
             <h6 class="mb-0 selectable p-2 rounded" onclick="app.jobsController.showJobs()">Jobs</h6>
           </div>
-          <div>
-            <h6 class="mb-0 selectable p-2 rounded">Houses</h6>
+          <div <h6 class="mb-0 selectable p-2 rounded" onclick="app.housesController.showHouses()">Houses</h6>
           </div>
         </div>
         <div>
           <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#rightBar"
             onclick="app.carsController.addCar()">🚗 Add Car</button>
+        </div>
+        <div>
+          <!-- TODO need to add houses controller with add house function -->
+          <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#rightBar"
+            onclick="app.housesController.addHouse()"> Add House</button>
         </div>
       </div>
     </nav>
