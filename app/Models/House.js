@@ -47,7 +47,7 @@ export class House {
     return /*html*/`
       <form onsubmit = "app.housesController.handleSubmit()">
         <div class="form-floating mb-3">
-          <input type="text" class="form-control" name="bedrooms" maxlength="20" value="${editable.rooms}">
+          <input type="text" class="form-control" name="bedrooms" maxlength="20" value="${editable.bedrooms}">
           <label for="rooms">Rooms</label>
         </div>
 

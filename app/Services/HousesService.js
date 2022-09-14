@@ -38,7 +38,7 @@ class HousesService {
     const updatedHouse = new House(res.data)
 
 
-    const index = appState.houses.findIndex(h => house.id == house.id)
+    const index = appState.houses.findIndex(h => h.id == house.id)
     appState.houses.splice(index, 1, updatedHouse)
     appState.emit('houses')
 

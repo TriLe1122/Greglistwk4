@@ -36,13 +36,16 @@
           </div>
         </div>
         <div>
-          <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#rightBar"
-            onclick="app.carsController.addCar()">🚗 Add Car</button>
-        </div>
-        <div>
-          <!-- TODO need to add houses controller with add house function -->
-          <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#rightBar"
-            onclick="app.housesController.addHouse()"> Add House</button>
+
+          <div>
+            <!-- TODO need to add houses controller with add house function -->
+            <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#rightBar"
+              onclick="app.housesController.addHouse()"> Add House</button>
+            <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#rightBar"
+              onclick="app.carsController.addCar()">🚗 Add Car</button>
+            <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#rightBar"
+              onclick="app.jobsController.addJob()"> Add Jahb</button>
+          </div>
         </div>
       </div>
     </nav>

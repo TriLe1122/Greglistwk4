@@ -22,8 +22,6 @@ class CarsService {
     appState.cars.splice(index, 1, updatedCar)
     appState.emit('cars')
 
-    // this.getCars() // DONT its the lazyboy recliner approach also data limit problems exist here
-
   }
 
   setActiveCar(id) {
